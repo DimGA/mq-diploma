@@ -1,0 +1,359 @@
+* {
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff);
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff);
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.9px;
+}
+
+header {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.header,
+.footer {
+  width: 320px;
+  padding: 34px 0 75px;
+  background-image: url(https://raw.githubusercontent.com/DimGA/mq-diploma/master/sources/img/football_767.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 140%;
+  position: relative;
+}
+
+.header::before,
+.footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(10, 14, 52, 0.9);
+  position: absolute;
+}
+
+.container {
+  position: relative;
+}
+
+.header_logo,
+.footer_logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo_icon {
+  width: 133px;
+}
+
+.welcome-title {
+  display: flex;
+  flex-wrap: wrap;
+  color: #ffffff;
+  font-size: 28px;
+  text-transform: uppercase;
+  margin: 132px 20px 81px 20px;
+}
+
+.title_line2 {
+  padding-left: 40px;
+  padding-top: 21px;
+  line-height: 33.6px;
+}
+
+.download_button {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  width: 280px;
+  height: 35px;
+  border: none;
+  background-color: #5e42b0;
+  margin: 0 auto 14px auto;
+  border-radius: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 8px;
+  text-transform: uppercase;
+}
+
+.download_icon {
+  display: flex;
+  margin: 0 10px 0 10px;
+}
+
+.apple_icon,
+.google_icon {
+  width: 25px;
+  height: 30px;
+}
+
+.apple_download,
+.google_download {
+  display: flex;
+  width: 100px;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: center;
+}
+
+.apple_line1,
+.google_line1 {
+  font-weight: 400;
+}
+
+.main {
+  width: 320px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.athlets_articles {
+  position: relative;
+}
+
+.footballer {
+  position: absolute;
+  top: 96px;
+  left: 20%;
+}
+
+.athlets,
+.players {
+  text-transform: uppercase;
+  color: #e7e7e7;
+  font-size: 50px;
+  margin-left: 20px;
+  margin-top: 24px;
+  margin-bottom: 230px;
+  margin-right: 20px;
+}
+
+.athlets_pros,
+.players_pros {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.article_title {
+  display: flex;
+  align-self: flex-end;
+  text-transform: uppercase;
+  font-size: 23px;
+  color: #c1c1c1;
+}
+
+.players_articles {
+  position: relative;
+}
+.basketballer {
+  position: absolute;
+  top: 100px;
+  left: 10px;
+}
+
+.active_pic,
+.contact_pic,
+.work_pic {
+  width: 320px;
+}
+
+.connection {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 23% 6.25% 18% 6.25%;
+  align-items: center;
+  background-color: #fafafa;
+}
+
+.card_number_1,
+.card_number_2,
+.card_number_3,
+.card_number_03 {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column-reverse;
+  margin-right: 11px;
+  font-weight: 700;
+}
+
+.card_number_1::before,
+.card_number_2::before,
+.card_number_3::before,
+.card_number_03::before {
+  content: "";
+  display: flex;
+  width: 18px;
+  height: 4px;
+  background-color: #5e42b0;
+  border-radius: 2px;
+}
+
+.card_number_3::before {
+  background-color: #fff;
+}
+
+.article_title {
+  margin-bottom: 16px;
+}
+
+.growth_article {
+  color: #fff;
+}
+
+.collaboration,
+.growth,
+.growth_players {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 18% 6.25%;
+  align-items: center;
+  background-color: #f5f4f9;
+}
+
+.growth {
+  background-color: #5e42b0;
+}
+
+.growth_players {
+  background-color: #090c35;
+}
+
+.card_number_03 {
+  color: #7155bd;
+}
+
+.cta {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.cta_number_01 {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  background-color: #5e42b0;
+  position: absolute;
+  top: 293px;
+  left: 20px;
+  font-weight: 700;
+  color: #f5f6f7;
+}
+
+.cta_number_01::before {
+  content: "";
+  display: flex;
+  width: 18px;
+  height: 4px;
+  background-color: #8f7bc8;
+  border-radius: 2px;
+}
+
+.cta_articles {
+  padding: 0;
+}
+
+.article_title_cta {
+  display: flex;
+  flex-wrap: nowrap;
+  text-transform: uppercase;
+  font-size: 23px;
+  color: #c1c1c1;
+  margin-left: 6.25%;
+  margin-top: 23px;
+  margin-bottom: 20px;
+  margin-right: auto;
+}
+
+.active_article-1 {
+  margin-left: 6.25%;
+  margin-right: 6.25%;
+  margin-bottom: 25%;
+}
+
+.footer {
+  background-image: url(https://raw.githubusercontent.com/DimGA/mq-diploma/master/sources/img/game_767.jpg);
+  padding: 0;
+  background-size: cover;
+}
+
+.container-1 {
+  position: relative;
+}
+
+.footer_icon {
+  width: 57px;
+  position: relative;
+  z-index: 3;
+}
+
+.footer_logo {
+  padding-top: 100px;
+}
+
+.footer_logo::before {
+  content: "";
+  display: flex;
+  width: 72px;
+  height: 74px;
+  background-color: #6a4bc2;
+  border-radius: 18px;
+  position: absolute;
+  z-index: 2;
+  top: 90px;
+}
+
+.footer_logotype {
+  display: flex;
+  justify-content: center;
+  margin-top: 82px;
+}
+
+.footer_logo_icon {
+  width: 133px;
+  margin-bottom: 20px;
+}
+
+.footer_title {
+  display: flex;
+  flex-wrap: wrap;
+  color: #ffffff;
+  font-size: 28px;
+  text-transform: uppercase;
+  margin: 55px 20px 81px 20px;
+}
+
+.footer_line1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.footer_line2 {
+  font-size: 14px;
+  color: #9b8ec1;
+}
